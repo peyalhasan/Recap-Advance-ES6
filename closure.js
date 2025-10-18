@@ -1,4 +1,4 @@
-// Lexixal Scoping 
+// Lexical Scoping 
  
 const stopWatch = () =>{
     let counter = 0;
