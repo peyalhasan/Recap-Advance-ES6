@@ -1,4 +1,4 @@
-
+// Lexixal Scoping 
  
 const stopWatch = () =>{
     let counter = 0;
@@ -7,7 +7,12 @@ const stopWatch = () =>{
         return counter
     }
 }
-console.log(stopWatch())
+const watch = stopWatch();// Watc is a function
+// console.log(watch()) // Output will be 1
+// console.log(watch()) // Output will be 2
+// console.log(watch()) // Output will be 3
+// console.log(watch()) // Output will be 4
+// console.log(watch()) // Output will be 5
 
 
 
