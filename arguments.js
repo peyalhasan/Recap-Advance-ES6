@@ -10,7 +10,8 @@ console.log(total)
 // Regular function e kaj kore 
 
 function sum1(a, b, c){
-    console.log(arguments)
+    console.log(arguments) // Return object
+
     const args = [...arguments] // Convert into an arry
     console.log(args)
     const result = a + b + c;
